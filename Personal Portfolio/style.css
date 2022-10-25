@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+.sidebarGo{
+    transform: translate(-420px,0px);
+    position: absolute;
+}
+.sidebar {
+    position: absolute;
+    background-color: rgb(242, 230, 230);
+    width: 12vw;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    height: 100vh;
+    font-size: 16px;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 41px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 32px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: pink; */
+    height: 50vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    margin: 23px 25px;
+}
+
+.hello {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.name {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.prof {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.moreAbout {
+    margin: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.buttons button {
+    padding: 11px;
+    border: -radius: 18px;
+    border: : 2px solid red;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 23px;
+}
+
+.buttons button:hover {
+    padding: 11px;
+    border: -radius: 18px;
+    border: : 2px solid red;
+    color: white;
+    background-color: blue;
+}
+
+.devpic img {
+    width: 252px;
+    height: 296px;
+    /* margin-right: 12px; */
+
+}
+
+.contactform {
+    padding: 0 24px;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-top: 160px;
+}
+
+.contactform h1 {
+    /* text-align:center; */
+    padding-bottom: 41px;
+}
+
+.contactform form div {
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    padding: 2px;
+    width: 23vw;
+    margin: 2px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+    /* background-color: aqua; */
+
+}
+
+#form-check input {
+    flex-direction: row;
+    width: 20px;
+}
+
+#emailHelp {
+    font-size: 0.7rem;
+    font-weight: bolder;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn {
+    padding: 11px;
+    border: -radius: 18px;
+    border: : 2px solid red;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 23px;
+}
+
+.btn:hover {
+    padding: 11px;
+    border: -radius: 18px;
+    border: : 2px solid red;
+    color: white;
+    background-color: blue;
+}
+
+.blogcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 12px
+}
+
+h1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 23px;
+}
+
+p {
+    padding: 5px;
+    font-family: 'Merriweather', serif;
+}
+
+.skills {
+    height: 7px;
+    width: 20vw;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.skillscontainer {
+    padding: 12px;
+    margin: 2px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+}
+
+.hund {
+    width: 236px;
+    background-color: yellow;
+}
+
+.fifty {
+    width: 210px;
+    background-color: blueviolet;
+}
+
+.seventy {
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.twentyfife {
+    width: 180px;
+    background-color: antiquewhite;
+}
+
+.fifteen {
+    width: 120px;
+    background-color: brown;
+}
+
+@media only screen and (max-width: 1220px) {
+    *{
+        /* background-color: lightblue; */
+    }
+    .devpic{
+        display: none;
+    }
+    
+    /* .sidebar{
+        transform: translate(-420px,0px);
+        position: absolute;
+    } */
+}
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.ham{
+    width: 53px;
+    height: 36px;
+}
+.cross{
+    width: 53px;
+    height: 36px;
+    margin-left: 123px;
+}
